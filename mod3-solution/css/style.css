@@ -1,0 +1,28 @@
+#nav-id{
+    position: relative;
+}
+#header{
+    position: absolute;
+}
+#header > h1{
+    text-align: center;
+    width: 100vw;
+}
+#main-con{
+    position: absolute;
+    top: 140px;
+    left: 7%;
+}
+
+#chicken, #beef, #sushi{
+    padding: 15px;
+    border: 5px solid #fff;
+
+}
+@media (max-width: 614px){
+    #main-con{
+        position: relative;
+        top: 60px;
+        left: 0;
+    }
+}
